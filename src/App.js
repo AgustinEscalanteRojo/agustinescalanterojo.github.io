@@ -6,6 +6,7 @@ function App() {
     <Container>
       <Banner>
         <Header />
+        <ProfComponent />
       </Banner>
     </Container>
   );
