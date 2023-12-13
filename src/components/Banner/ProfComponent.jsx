@@ -36,7 +36,7 @@ const ProfComponent = () => {
       </Texts>
         <Profile>
           <img
-            src="https://res.cloudinary.com/ghazni/image/upload/v1659082282/Yt-portfolio/Untitled-1_drcspz.png"
+            src="Foto.jpg"
             alt="profile"
           />
         </Profile>
