@@ -21,3 +21,8 @@ body{
   overflow-x: hidden;
   position: relative;
 }
+
+
+.slick-list, .slick-slider, .slick-track{
+  padding: 1.5rem 0;
+}

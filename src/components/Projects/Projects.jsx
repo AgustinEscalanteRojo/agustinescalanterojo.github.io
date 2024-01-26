@@ -1,4 +1,6 @@
 import React from "react";
+import SliderComp from "./Slider";
+import styled from "styled-components";
 
 const Projects = () => {
   return (
@@ -13,7 +15,7 @@ const Projects = () => {
         fugit quaerat iure veniam delectus.
       </p>
       <Slide>
-        <Slider />
+        <SliderComp />
       </Slide>
     </Container>
   );
