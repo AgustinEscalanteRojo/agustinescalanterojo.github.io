@@ -1,16 +1,15 @@
 import React from "react";
+import styled from 'styled-components';
 
-const Project = () => {
+const Project = (props) => {
+    const {img, disc} = props.item;
   return (
-    <Container>
-      <img src="" alt="" />
+    <Container className="project">
+      <img src={img} alt="project" />
       <div className="disc">
         <h1>Description</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-          accusamus, maiores aperiam ducimus consequuntur quam minus omnis illum
-          deserunt similique voluptas hic debitis vero deleniti! Et minima quia
-          iusto libero?
+          {disc}
           <a href="#">Demo</a>
         </p>
       </div>

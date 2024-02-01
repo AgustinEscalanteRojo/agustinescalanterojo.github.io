@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <Container>
       <h1>
-        Recent <span className="green">Projects"</span>
+        Recent <span className="green">Projects</span>
       </h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
