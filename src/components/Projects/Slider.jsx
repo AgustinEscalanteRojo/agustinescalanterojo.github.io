@@ -1,6 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
 import Project from "./Project";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+
 
 let data = [
   {
@@ -70,7 +72,21 @@ const SliderComp = () => {
   let sliderProject = "";
   sliderProject = data.map((item, i) => <Project item={item} key={i} />);
 
-  return <Slider {...settings}>{sliderProject}</Slider>;
+  return (
+    <Container>
+      <Slider ref={arrowRef} {...settings}>
+      {sliderProject}
+      </Slider>
+      <Buttons>
+        <button 
+        onClick={() => arrowRef.current.slickPrev()}
+        className='back'><IoIosArrowBack/></button>
+        <button 
+        onClick={() => arrowRef.current.slickNext()}
+        className='next'><IoIosArrowForward/></button>
+      </Buttons>
+    </Container>
+  )
 };
 
 export default SliderComp;
