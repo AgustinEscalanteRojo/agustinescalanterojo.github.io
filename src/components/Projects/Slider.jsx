@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import Project from "./Project";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import styled from 'styled-components';
 
 
 let data = [
@@ -90,3 +91,24 @@ const SliderComp = () => {
 };
 
 export default SliderComp;
+
+
+
+
+const Buttons = styled.div`
+  button{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgba(255, 255, 255, 0.100);
+    cursor: pointer;
+    color: #01be96;
+    border: none;
+    position: absolute;
+    top: 45%;
+    right: -1rem;
+  }
+
+  .back{
+    left: -1rem;
+  }
+`
