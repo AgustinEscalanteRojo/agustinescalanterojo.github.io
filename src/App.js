@@ -1,6 +1,8 @@
 import Header from "./components/Banner/Header";
 import ProfComponent from "./components/Banner/ProfComponent";
 import Projects from "./components/Projects/Projects";
+import Services from "./components/Services/Services";
+import Footer from "./components/Footer/Footer";
 import styled from "styled-components";
 
 function App() {
@@ -10,8 +12,12 @@ function App() {
         <Header />
         <ProfComponent />
       </Banner>
+      <Services/>
       <Project>
         <Projects />
+      </Project>
+      <Project>
+        <Footer />
       </Project>
     </Container>
   );
