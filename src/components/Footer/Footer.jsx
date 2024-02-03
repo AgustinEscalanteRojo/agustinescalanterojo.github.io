@@ -56,7 +56,30 @@ const Footer = () => {
         </div>
         <ArrowUp><AiOutlineArrowUp /></ArrowUp>
       </Profile>
-      <Form></Form>
+      <Form>
+
+      <form>
+            <div className="name">
+              <span>
+                <CgProfile />
+              </span>
+              <input type="text" placeholder="Fullname..." />
+            </div>
+            <div className="email">
+              <span>
+                <MdAlternateEmail />
+              </span>
+              <input type="email" placeholder="Email..." />
+            </div>
+            <div className="message">
+              <span className="messageIcon">
+                <FiMail />
+              </span>
+              <textarea cols="30" rows="10" placeholder="Message..."></textarea>
+            </div>
+            <button>Submit</button>
+          </form>
+      </Form>
     </Container>
   );
 };
