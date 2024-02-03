@@ -8,6 +8,12 @@ import { FiMail, FiPhoneCall } from "react-icons/fi";
 import styled from "styled-components";
 
 const Footer = () => {
+    const scrollUp = () => {
+        window.scroll({
+          top: 0,
+          behavior: "smooth",
+        });
+      };
   return (
     <Container>
       <Profile>
@@ -54,7 +60,7 @@ const Footer = () => {
             </span>
           </div>
         </div>
-        <ArrowUp><AiOutlineArrowUp /></ArrowUp>
+        <ArrowUp onClick={scrollUp}><AiOutlineArrowUp /></ArrowUp>
       </Profile>
       <Form>
 
