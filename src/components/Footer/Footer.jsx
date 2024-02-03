@@ -21,19 +21,40 @@ const Footer = () => {
             <a href="tel:+34658920636">+34 658 92 06 36</a>
           </div>
           <div>
-            <span><HiOutlineMailOpen />            </span>
-                <a href="agustinescalanterojo@gmail.com">agustinescalanterojo@gmail.com</a>
+            <span>
+              <HiOutlineMailOpen />{" "}
+            </span>
+            <a href="agustinescalanterojo@gmail.com">
+              agustinescalanterojo@gmail.com
+            </a>
           </div>
         </div>
         <div className="profile">
-    <h1>Check my profile</h1>
-    <div className="icons">
-        <span><a href="#"><AiFillGithub/></a></span>
-        <span><a href="#"><AiFillLinkedin/></a></span>
-        <span><a href="#"><AiOutlineArrowUp/></a></span>
-        <span><a href="#"><BsSlack/></a></span>
-    </div>
+          <h1>Check my profile</h1>
+          <div className="icons">
+            <span>
+              <a href="#">
+                <AiFillGithub />
+              </a>
+            </span>
+            <span>
+              <a href="#">
+                <AiFillLinkedin />
+              </a>
+            </span>
+            <span>
+              <a href="#">
+                <AiOutlineArrowUp />
+              </a>
+            </span>
+            <span>
+              <a href="#">
+                <BsSlack />
+              </a>
+            </span>
+          </div>
         </div>
+        <ArrowUp><AiOutlineArrowUp /></ArrowUp>
       </Profile>
       <Form></Form>
     </Container>
@@ -42,6 +63,24 @@ const Footer = () => {
 
 export default Footer;
 
-const Container = styled.div``;
+const Container = styled.div`
+  margin-top: 2rem;
+  position: relative;
+  padding: 2rem 0;
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 840px) {
+    width: 90%;
+  }
+
+  @media (max-width: 650px) {
+    flex-direction: column;
+    gap: 3rem;
+  }
+`;
 const Profile = styled.div``;
+const ArrowUp = styled.div``;
 const Form = styled.div``;
