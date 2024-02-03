@@ -138,10 +138,23 @@ const Profile = styled.div`
   }
 `;
 
+const ArrowUp = styled.div`
+  width: 2rem;
+  height: 2rem;
+  background-color: #01be96;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  @media (max-width: 650px) {
+    position: absolute;
+    right: 3rem;
+    top: 16rem;
+  }
+`;
 
 
-
-
-
-const ArrowUp = styled.div``;
 const Form = styled.div``;
