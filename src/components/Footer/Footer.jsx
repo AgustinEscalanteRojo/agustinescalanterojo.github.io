@@ -1,4 +1,10 @@
 import React from "react";
+import { MdAlternateEmail } from "react-icons/md";
+import { CgProfile } from "react-icons/cg";
+import { HiOutlineMailOpen } from "react-icons/hi";
+import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
+import { BsFacebook, BsSlack } from "react-icons/bs";
+import { FiMail, FiPhoneCall } from "react-icons/fi";
 import styled from "styled-components";
 
 const Footer = () => {
