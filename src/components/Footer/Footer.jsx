@@ -81,6 +81,67 @@ const Container = styled.div`
     gap: 3rem;
   }
 `;
-const Profile = styled.div``;
+
+const Profile = styled.div`
+  flex: 1;
+
+  .links {
+    h1 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      a {
+        text-decoration: none;
+        color: lightgray;
+        :hover {
+          color: orange;
+        }
+      }
+    }
+  }
+
+  .profiles {
+    h1 {
+      font-size: 1.2rem;
+      padding: 1rem 0;
+    }
+
+    .icons {
+      display: flex;
+      align-items: center;
+
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000;
+        width: 2rem;
+        height: 2rem;
+        margin-right: 0.5rem;
+        border-radius: 50px;
+
+        :hover {
+          background-color: orange;
+        }
+
+        a {
+          margin-top: 0.2rem;
+          color: #fff;
+        }
+      }
+    }
+  }
+`;
+
+
+
+
+
+
 const ArrowUp = styled.div``;
 const Form = styled.div``;
