@@ -16,9 +16,23 @@ const Footer = () => {
           <h1>Contact me directly:</h1>
           <div>
             <span>
-
+              <FiPhoneCall />
             </span>
+            <a href="tel:+34658920636">+34 658 92 06 36</a>
           </div>
+          <div>
+            <span><HiOutlineMailOpen />            </span>
+                <a href="agustinescalanterojo@gmail.com">agustinescalanterojo@gmail.com</a>
+          </div>
+        </div>
+        <div className="profile">
+    <h1>Check my profile</h1>
+    <div className="icons">
+        <span><a href="#"><AiFillGithub/></a></span>
+        <span><a href="#"><AiFillLinkedin/></a></span>
+        <span><a href="#"><AiOutlineArrowUp/></a></span>
+        <span><a href="#"><BsSlack/></a></span>
+    </div>
         </div>
       </Profile>
       <Form></Form>
