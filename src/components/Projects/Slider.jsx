@@ -70,6 +70,7 @@ var settings = {
 };
 
 const SliderComp = () => {
+  const arrowRef = React.createRef();
   let sliderProject = "";
   sliderProject = data.map((item, i) => <Project item={item} key={i} />);
 
