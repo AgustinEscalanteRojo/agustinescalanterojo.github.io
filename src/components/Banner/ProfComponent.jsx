@@ -8,16 +8,17 @@ const ProfComponent = () => {
     <Container>
       <Texts>
         <h4>
-          Hola <span className="green">Soy</span>
+          Hello <span className="green">I am</span>
         </h4>
         <h1 className="green">Agustín Escalante</h1>
-        <h3>Desarrollador full stack</h3>
+        <h3>Full stack developer</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-          iusto. Adipisci in qui officia provident tenetur sequi, deserunt
-          corporis quos?
+          "Hi, I'm Agustín Escalante, a passionate junior full stack developer
+          with recent experience in a psychology website project using React. My
+          goal is to create innovative technological solutions and continue
+          growing in this dynamic field. Welcome to my portfolio!"
         </p>
-        <button>Contáctame</button>
+        <button>Contact me at</button>
         <Social>
           <p>Check out my</p>
           <div className="social-icons">
@@ -34,12 +35,9 @@ const ProfComponent = () => {
           </div>
         </Social>
       </Texts>
-        <Profile>
-          <img
-            src="Foto.jpg"
-            alt="profile"
-          />
-        </Profile>
+      <Profile>
+        <img src="Foto.jpg" alt="profile" />
+      </Profile>
     </Container>
   );
 };

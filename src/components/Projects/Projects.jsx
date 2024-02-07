@@ -8,12 +8,7 @@ const Projects = () => {
       <h1>
         Recent <span className="green">Projects</span>
       </h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-        consequuntur aliquid animi provident explicabo autem laudantium deleniti
-        obcaecati reiciendis blanditiis excepturi iste fugiat, ipsa dignissimos
-        fugit quaerat iure veniam delectus.
-      </p>
+      <p>Under construction</p>
       <Slide>
         <SliderComp />
       </Slide>
@@ -48,5 +43,4 @@ const Container = styled.div`
   }
 `;
 
-const Slide = styled.div``
-
+const Slide = styled.div``;
