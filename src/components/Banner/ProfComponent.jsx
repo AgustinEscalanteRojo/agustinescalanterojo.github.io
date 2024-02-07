@@ -1,6 +1,5 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import styled from "styled-components";
 
 const ProfComponent = () => {
@@ -23,12 +22,20 @@ const ProfComponent = () => {
           <p>Check out my</p>
           <div className="social-icons">
             <span>
-              <a href="https://www.linkedin.com/in/agustinescalanterojo/">
+              <a
+                href="https://www.linkedin.com/in/agustinescalanterojo/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaLinkedin />
               </a>
             </span>
             <span>
-              <a href="https://github.com/AgustinEscalanteRojo">
+              <a
+                href="https://github.com/AgustinEscalanteRojo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaGithub />
               </a>
             </span>
