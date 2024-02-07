@@ -11,7 +11,7 @@ const Header = () => {
         <span className="green">
           <MdDeveloperMode />
         </span>
-        <h1>Portafolio</h1>
+        <h1>Portfolio</h1>
       </Logo>
       <Nav>
         <span>

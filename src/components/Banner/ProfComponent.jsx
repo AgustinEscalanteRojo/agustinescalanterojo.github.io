@@ -23,12 +23,12 @@ const ProfComponent = () => {
           <p>Check out my</p>
           <div className="social-icons">
             <span>
-              <a href="/">
+              <a href="https://www.linkedin.com/in/agustinescalanterojo/">
                 <FaLinkedin />
               </a>
             </span>
             <span>
-              <a href="/">
+              <a href="https://github.com/AgustinEscalanteRojo">
                 <FaGithub />
               </a>
             </span>
