@@ -129,6 +129,7 @@ const Nav = styled.div`
       color: #fff;
       text-decoration: none;
       font-weight: 400;
+      font-weight: bold;
       position: relative;
       :before {
         content: "";
