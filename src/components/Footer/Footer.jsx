@@ -39,12 +39,12 @@ const Footer = () => {
           <h1>Check my profile</h1>
           <div className="icons">
             <span>
-              <a href="#">
+              <a href="https://github.com/AgustinEscalanteRojo">
                 <AiFillGithub />
               </a>
             </span>
             <span>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/agustinescalanterojo/">
                 <AiFillLinkedin />
               </a>
             </span>
