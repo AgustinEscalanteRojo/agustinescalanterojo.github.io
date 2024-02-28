@@ -160,7 +160,7 @@ const Profile = styled.div`
 
         a {
           margin-top: 0.2rem;
-          color: #fff;
+          color: #196cc6;
         }
       }
     }
@@ -170,7 +170,7 @@ const Profile = styled.div`
 const ArrowUp = styled.div`
   width: 2rem;
   height: 2rem;
-  background-color: #01be96;
+  background-color: #196cc6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -228,13 +228,13 @@ const Form = styled.div`
     button {
       width: 5rem;
       height: 1.8rem;
-      background-color: #01be96;
+      background-color: #196cc6;
       border: none;
       border-radius: 5px;
-      filter: drop-shadow(0px 4px 5px #01be9551);
+      filter: drop-shadow(0px 4px 5px #1427d0);
       cursor: pointer;
       :hover {
-        filter: drop-shadow(0px 6px 9px #01be9551);
+        filter: drop-shadow(0px 6px 9px #1427d0);
       }
     }
   }

@@ -26,7 +26,7 @@ export default App;
 const Container = styled.div``;
 
 const Banner = styled.div`
-  background: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);
+  background: linear-gradient(159deg, rgb(170, 211, 228) 0%, rgb(171, 208, 237) 100%);
   height: 100vh;
   @media (max-width: 640px) {
     height: 100%;
@@ -35,5 +35,5 @@ const Banner = styled.div`
 `;
 
 const Project = styled.div`
-  background: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);
+  background: linear-gradient(159deg, rgb(170, 211, 228) 0%, rgb(171, 208, 237) 100%);
 `;
