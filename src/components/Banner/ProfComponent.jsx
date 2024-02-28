@@ -6,20 +6,22 @@ const ProfComponent = () => {
   return (
     <Container>
       <Texts>
-        <h4>
+        <h4><strong>
           Hello <span className="green">I am</span>
+          </strong>
         </h4>
         <h1 className="green">Agustín Escalante</h1>
         <h3>Full stack developer</h3>
-        <p>
+        <p><strong>
           "Hi, I'm Agustín Escalante, a passionate junior full stack developer
           with recent experience in a psychology website project using React. My
           goal is to create innovative technological solutions and continue
           growing in this dynamic field. Welcome to my portfolio!"
+          </strong>
         </p>
         <button>Contact me at</button>
         <Social>
-          <p>Check out my</p>
+          <p><strong>Check out my</strong></p>
           <div className="social-icons">
             <span>
               <a
