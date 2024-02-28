@@ -48,16 +48,6 @@ const Footer = () => {
                 <AiFillLinkedin />
               </a>
             </span>
-            <span>
-              <a href="#">
-                <AiOutlineArrowUp />
-              </a>
-            </span>
-            <span>
-              <a href="#">
-                <BsSlack />
-              </a>
-            </span>
           </div>
         </div>
         <ArrowUp onClick={scrollUp}><AiOutlineArrowUp /></ArrowUp>
