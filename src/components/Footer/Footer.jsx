@@ -116,7 +116,8 @@ const Profile = styled.div`
       gap: 0.5rem;
       a {
         text-decoration: none;
-        color: lightgray;
+        color: #196cc6;
+        font-weight: bold;
         :hover {
           color: orange;
         }
@@ -168,6 +169,11 @@ const ArrowUp = styled.div`
   font-size: 1.3rem;
   font-weight: 700;
   margin-top: 2rem;
+  filter: drop-shadow(0px 4px 5px #1427d0);
+  border-radius: 10px;
+  :hover {
+    background-color: #6a96c8;
+  }
   @media (max-width: 650px) {
     position: absolute;
     right: 3rem;
@@ -224,7 +230,7 @@ const Form = styled.div`
       filter: drop-shadow(0px 4px 5px #1427d0);
       cursor: pointer;
       :hover {
-        filter: drop-shadow(0px 6px 9px #1427d0);
+        background-color: #6a96c8;
       }
     }
   }
